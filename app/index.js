@@ -34,7 +34,7 @@ function refreshData() {
     var sum = squares.reduce(function(a, b) { return a + b; });
     var avg = sum / squares.length;
 
-    hrvCalc = Math.round(Math.sqrt(avg),2);
+    hrvCalc = Math.round(Math.sqrt(avg) * 100) / 100;
     
     hrvData.text = JSON.stringify(hrvCalc);
   } else {
