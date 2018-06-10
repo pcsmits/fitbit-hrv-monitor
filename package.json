@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "29a4cf94-c04c-438a-b434-1db954eebefa",
+    "appType": "app",
+    "appDisplayName": "HRV-monitor",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "HRV-monitor"
+      }
+    }
+  }
+}
