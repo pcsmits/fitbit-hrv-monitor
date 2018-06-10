@@ -2,9 +2,9 @@
   "fitbit": {
     "appUUID": "29a4cf94-c04c-438a-b434-1db954eebefa",
     "appType": "app",
-    "appDisplayName": "HRV-monitor",
+    "appDisplayName": "HRV",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#607d8b",
+    "wipeColor": "#2196f3",
     "requestedPermissions": [
       "access_heart_rate"
     ],
@@ -14,7 +14,7 @@
     ],
     "i18n": {
       "en": {
-        "name": "HRV-monitor"
+        "name": "HRV"
       }
     }
   }
